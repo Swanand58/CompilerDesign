@@ -1,0 +1,20 @@
+commands 
+
+1) Flex --version
+2) sudo apt-get install Flex
+3) lex abc.l
+4) gcc lex.yy.c -ll
+5) ./a.out
+
+program : to display identifiers
+
+%% 
+        [a-zA-Z0-9] + {printf("it is ID");}
+
+%%        
+
+
+
+2}
+lexical analyser using subset of c
+
